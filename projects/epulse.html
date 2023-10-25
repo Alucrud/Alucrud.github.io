@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mark Wilson - Projects - ePulse / Poll Pads</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="two">
+						<a href="../index.html#main" class="logo">Mark Wilson</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<a href="../index.html#main" width="50px"><li class="icon solid fa-home"></li></a>
+							<li><a href="../resume.html">Resume</a></li>
+							<li class="active"><a href="../projects.html">Work Projects</a></li>
+							<!-- <li><a href="../boardgames.html">Board Games</a></li> -->
+														
+							<!-- <li><a href="../elements.html">Elements Reference</a></li> -->
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="../https://github.com/Alucrud" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+					
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<img src="img/epulse/knowink.png" class="bannerimg" alt="" />
+							<section>
+								<header class="major">
+									<h1>ePulse and Poll Pads</h1>
+								</header>
+							</section>
+							
+							<section>
+								<p><b>ePulse</b> and <b>Poll Pads</b> are products of Knowink.</p>
+								<p><b>ePulse</b> is the server. <b>Poll Pads</b> are iPads set up with a Poll Pad app for checking in voters.</p>
+								<p>I managed the configuration and maintenance of both at Linn County. This was (and is) used on election day, for early voting, and during training for election workers.</p>
+								<p>Along with the configuration, I also used <b>Mobile Device Management (MDM)</b> to configure the iPads themselves using <b>Cisco Meraki</b> software.</p>
+								<p>Finally, the iPads were connected to a Verizon hot spot to communicate with our office during elections. I also configured these using their management platform.</p>
+								<br />
+								<h3>ePulse</h3>
+								<p>I managed the configuration of the server. This included assigning devices to locations, custom screens to guide workers, and custom receipt templates.</p>
+								<p>We also used this to monitor the iPads on election day and we could see how many voters are checking in.</p>
+								<div id="thumbnails">
+									<img src="img/epulse/epulse.png" class="imgexpand" alt="A view of deployed iPads during an election." />
+									<img src="img/epulse/receipt.png" class="imgexpand" alt="An example receipt template. Anything in brackets is a variable based on the voter and their ballot. I included instructions for the worker at the bottom as well." />
+								</div>
+								
+								<h3>Poll Pads</h3>
+								<p>We had over 300 iPads to manage. They were used for election worker training and election day, among other things.</p>
+								<div id="thumbnails">
+									<img src="img/epulse/pollpad-cart.jpg" class="imgexpand" alt="A cart with 60 charging iPads. I can't take credit for the setup, that was a coworker." />
+									<img src="img/epulse/pollpad-update.jpg" class="imgexpand" alt="Updating the iPad OS using Meraki MDM." />
+								</div>
+								
+								<h3>Cisco Meraki</h3>
+								<p>Meraki was used to push out iPad settings and perform bulk actions on iPads, like updating the OS.</p>
+								<div id="thumbnails">
+									<img src="img/epulse/meraki.png" class="imgexpand" alt="A list of configuration profiles sent to the iPads." />
+								</div>
+								
+								<h3>Verizon Hotspots</h3>
+								<p>Each location has a hotspot so the iPads can communicate with our office. These were set up using Verizon MDM.</p>
+								<div id="thumbnails">
+									<img src="img/epulse/hotspots.jpg" class="imgexpand" alt="A box of hotspots. These had a label over top with instuctions on how to use it with an ID number." />
+								</div>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+
+								<h3>Phone</h3>
+								<p><a href="tel:+13198925312">(319) 892-5312</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:mawilson7@gmail.com">mawilson7@gmail.com</a></p>
+							</section>
+						</section>
+					</footer>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Mark Wilson</li><li>Based on template: <a href="../https://html5up.net/massively">Massively</a></li></ul>
+					</div>
+
+			</div>
+			
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/collapsible.js"></script>
+			<script src="../assets/js/mark.js"></script>
+	</body>
+</html>
