@@ -1,0 +1,22 @@
+/* Resume */
+	#main .resume h1, #main .resume h2 {
+		padding: .2rem 0rem .2rem 1rem;
+		margin-top: 3rem;
+		border-radius: 10px;
+		background-color: #212931;
+		text-align: left;
+		color: #fff;
+	}
+	
+	#main .resume h3, #main .resume h4, #main .resume h5 {
+		padding: .2rem 0rem .2rem 0rem;
+		margin-top: 3rem;
+		margin-bottom: 0rem;
+		text-align: left;
+	}
+	
+	.resdate {
+		color: gray;
+		float: right;
+		font-family: 'Source Sans Pro';
+	}
