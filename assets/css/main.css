@@ -2150,7 +2150,16 @@ input, select, textarea {
 			color: #687887;
 			line-height: 1.5;
 		}
-	
+
+/* Warning */
+	.warning {
+		background-color: #f2bbaf;
+		border: solid 3px #ddc;
+		border-radius: 10px;
+		padding: .5rem;
+		display: flex;
+	}
+
 /* Banner */
 	.banner {
 		background-color: #ffffe6;
