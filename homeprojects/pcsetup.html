@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Mark Wilson - Home Projects - ***TITLE</title>
+		<title>Mark Wilson - Home Projects - PC Setup</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -42,22 +42,58 @@
 					<div id="main">
 
 						<!-- Post -->
-							<img src="***img/databases/access.png" class="bannerimg" alt="" />
+							<img src="img/pcsetup/pcsetup.png" class="bannerimg" alt="" />
 							<section>
 								<br><a href="../homeprojects.html">&lt;&lt;&lt; Go Back</a><br><br>
 								<header class="major">
-									<h1>Heading</h1>
+									<h1>PC Setup</h1>
 								</header>
 							</section>
 							
 							<section>
-								<p>Overview info</p><br />
+								<p>Between multiple windows installs and updates, I got tired of manually setting up my PCs over and over. I ended up setting up a folder that is synced via cloud storage (iCloud at the moment) and using SyncThing for LAN. In the folder is a number of scripts to...</p>
+								<ul>
+								<li>Remove bloat</li>
+								<li>Quickly configure system settings</li>
+								<li>Download applications I always use</li>
+								<li>Backup / restore app and extension settings</li>
+								<li>Updating installed applications</li>
+								</ul>
+								<p>These scripts include .bat files, powershell commands / .ps1 files, 'winget' commands, and settings from %appdata% and other folders for apps.</p>
+								<br />
 								
-								<h3>Subheading</h3>
-								<p>Info</p>
+								<h3>Remove Bloat</h3>
+								<p>I started with some .bat files from the internet, then removed / added some of my own tweaks to uninstall the windows app I (and probably most people) never use.</p>
 								<div id="thumbnails">
-									<img src="img/databases/CHAD-Main.png" class="imgexpand" alt="" />
+									<img src="img/pcsetup/RemoveBloat.png" class="imgexpand" alt="" />
 								</div>
+								
+								<h3>Configure System</h3>
+								<p>I have a couple .bat files: one that requires admin access, one that doesn't. They both go through system and user settings that I usually change, like setting my preferred mouse pointer, or turning off 'enhanced pointer precision' and it asks if I want to change each setting one-by-one. Usually, I'm going to do all of them, but this at least gives me some control over it, just in case. Each action is tied to a powershell file to update the commands.</p>
+								<div id="thumbnails">
+									<img src="img/pcsetup/SystemSettings.png" class="imgexpand" alt="" />
+								</div>
+								
+								<h3>Download Apps</h3>
+								<p>I'm a big fan of using winget to install applications from the windows terminal. I made a few .bat files to run through different types of apps that I usually install. Like the system configurations, these ask one-by-one.</p>
+								<p>I recently re-wrote this to also have the option to queue up downloads, so you can quickly queue several up and install them all at once at the end of the list.</p>
+								<div id="thumbnails">
+									<img src="img/pcsetup/DownloadApps.png" class="imgexpand" alt="" />
+								</div>
+								
+								<h3>App Settings</h3>
+								<p>This one isn't as technical. It's simply a folder structure to store settings for individual applications and extensions. I include instructions in a text file for myself and a shortcut to the settings folder, usually in %appdata%.</p>
+								<p>Some day, when I'm feeling ambitious, I'm planning to set up an auto-backup system for this, but I need to work out how to best handle it.</p>
+								<div id="thumbnails">
+									<img src="img/pcsetup/AppSettings.png" class="imgexpand" alt="" />
+								</div>
+								
+								<h3>Update Apps</h3>
+								<p>This .bat file just does a winget command to see what applications have updates available. It also has a list of commands I can type to update all or individual items, so I don't have to go look it up all the time.</p>
+								<div id="thumbnails">
+									<img src="img/pcsetup/AppUpdate.png" class="imgexpand" alt="" />
+								</div>
+								
 								
 								<br><a href="../homeprojects.html">&lt;&lt;&lt; Go Back</a><br><br>
 								
