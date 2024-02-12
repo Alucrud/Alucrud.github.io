@@ -2254,6 +2254,13 @@ input, select, textarea {
 		  }
 		}
 	
+/* Videos */
+	.vid {
+		object-fit: initial;
+		width: 400px;
+		height: 300px;
+	}
+	
 /* Board Game Pages */
 	.bginfo * {
 		color: #f1f1f1;
