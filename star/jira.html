@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mark Wilson - STAR - Jira</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="two">
+						<a href="../index.html#main" class="logo">Mark Wilson</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<a href="../index.html#main" width="50px"><li class="icon solid fa-home"></li></a>
+							<!-- <li><a href="../resume.html">Resume</a></li> -->
+							<li><a href="../why.html">Why Mark?</a></li>
+							<li class="active"><a href="../star.html">STAR Examples</a></li>
+							<li><a href="../projects.html">Work Projects</a></li>
+							<li><a href="../homeprojects.html">Home Projects</a></li>
+							<li><a href="../accolades.html">Accolades</a></li>
+							<!-- <li><a href="../boardgames.html">Board Games</a></li> -->
+														
+							<!-- <li><a href="../elements.html">Elements Reference</a></li> -->
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="../https://github.com/Alucrud" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+					
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<!-- <img src="img/star/replace.png" class="bannerimg" alt="" /> -->
+							<section>
+								<br><a href="../star.html">&lt;&lt;&lt; Go Back</a><br><br>
+								<header class="major">
+									<h1>Software Improvement:<br>Jira Task List</h1>
+								</header>
+							</section>
+							
+							<section>
+								<h3>Situation</h3>
+								<p>Initially, our deputy used an Excel spreadsheet to manage election tasks and we had a regular meeting to go through each item and say what was and wasn't completed.</p>
+								
+								<p>In comes Jira (Core) to allow us to manage these tasks better, but Jira didn't have a good way to duplicate the tasks from election to election. Also, not all tasks were the same or had the same deadlines for each election. Lastly, Jira didn’t have a decent export / import function at the time.</p>
+								
+								<h3>Task</h3>
+								<p>We needed a way to duplicate elections, at least. Better yet, we needed to import elections based on the type of election, with dynamic deadlines based on the days prior to election day.</p>
+								
+								<h3>Action</h3>
+								<p>I created an access database to add tasks, with options to tag them in various ways:</p>
+								<ul>
+								<li><b>Triggers:</b> When the task can be started.</li>
+								<li><b>Dependencies:</b> What type of election or what  needed to take place in an election for the task to apply, like early voting.</li>
+								<li><b>Links:</b> Connecting related issues and potentially triggering alerts when an issue is completed.</li>
+								</ul>
+								
+								<p>Tasks had deadlines related to election day (-120 days, for example) which updated based on the date I added for the election.</p>
+								
+								<p>I could filter out dependencies to quickly filter out several tasks.</p>
+								
+								<p>Then I could export the file as a CSV and import it into Jira.</p>
+								
+								<h3>Result</h3>
+								<p>I was able to create a Jira project for an election with hundreds of tasks and accurate deadlines within an hour. All tasks were assigned to the correct worker, had applicable notes, and were linked to other tasks as necessary.</p>
+								
+								<p>This all served to improve collaboration between the election team as we were in busy election times.</p>
+								
+								<br><br><p>Click on any of the images below to see examples:</p>
+								<div id="thumbnails">
+									<img src="img/jira/dash.png" class="imgexpand" alt="" />
+									<img src="img/jira/task.png" class="imgexpand" alt="" />
+									<img src="img/jira/task2.png" class="imgexpand" alt="" />
+								</div>
+								
+								<br><a href="../star.html">&lt;&lt;&lt; Go Back</a><br><br>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+
+								<h3>Phone</h3>
+								<p><a href="tel:+13195733259">(319) 573-3259</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:mawilson7@gmail.com">mawilson7@gmail.com</a></p>
+							</section>
+						</section>
+					</footer>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Mark Wilson</li><li>Based on template: <a href="../https://html5up.net/massively">Massively</a></li></ul>
+					</div>
+
+			</div>
+			
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/collapsible.js"></script>
+			<script src="../assets/js/mark.js"></script>
+	</body>
+</html>

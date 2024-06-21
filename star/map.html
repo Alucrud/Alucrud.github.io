@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mark Wilson - STAR - Assigning Workers with Google Maps</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="two">
+						<a href="../index.html#main" class="logo">Mark Wilson</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<a href="../index.html#main" width="50px"><li class="icon solid fa-home"></li></a>
+							<!-- <li><a href="../resume.html">Resume</a></li> -->
+							<li><a href="../why.html">Why Mark?</a></li>
+							<li class="active"><a href="../star.html">STAR Examples</a></li>
+							<li><a href="../projects.html">Work Projects</a></li>
+							<li><a href="../homeprojects.html">Home Projects</a></li>
+							<li><a href="../accolades.html">Accolades</a></li>
+							<!-- <li><a href="../boardgames.html">Board Games</a></li> -->
+														
+							<!-- <li><a href="../elements.html">Elements Reference</a></li> -->
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="../https://github.com/Alucrud" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+					
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<!-- <img src="img/star/replace.png" class="bannerimg" alt="" /> -->
+							<section>
+								<br><a href="../star.html">&lt;&lt;&lt; Go Back</a><br><br>
+								<header class="major">
+									<h1>Utilizing Existing Tools:<br>Mapping Election Workers</h1>
+								</header>
+							</section>
+							
+							<section>
+								<h3>Situation</h3>
+								<p>Assigning hundreds of workers to about 80 polling locations was always a monumental task. We had several tools to assist with the process, including a Microsoft Access database for the actual assignments, which showed mileage based on Google Maps API once someone was assigned to a location. This was nice, but it didn't help me actually assign the workers.</p>
+								
+								<h3>Task</h3>
+								<p>I needed a way to make intelligent decisions when assigning workers. I had to take into consideration where my available workers were, so I didn't have people going across the county. We paid mileage, and at 6 AM and 10 PM, travelling that far could be dangerous.</p>
+								
+								<h3>Action</h3>
+								<p>I utilized Google Maps along with exports from our database. This allowed me to visualize where my available workers were and where I needed people.</p>
+								
+								<p>I made several SQL queries for different situations, like locations that needed Democrats or Republicans (locations legally needed to be party balanced). I had exports that had my workers and their parties, so I could color code them based on parties. Putting them on a map of Linn County allowed me to take the river into consideration, and find the best person for the location, not just someone who is close.</p>
+								
+								<h3>Result</h3>
+								<p>This undoubtedly saved tax-payer dollars on mileage spent for poll workers. It also made the poll workers' lives easier, as I didn't have them travelling across the county after a 16 hour day.</p>
+								
+								<br><br><p>Click on any of the images below to see examples:</p>
+								<div id="thumbnails">
+									<img src="img/map/locations.png" class="imgexpand" alt="An example of polling locations on a map." />
+									<img src="img/map/workers.png" class="imgexpand" alt="In progress assigning workers to locations missing workers for that nasty 2020 mid-covid election. Once I assigned someone, I could just delete them from the map to simplify things." />
+								</div>
+								
+								<br><a href="../star.html">&lt;&lt;&lt; Go Back</a><br><br>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+
+								<h3>Phone</h3>
+								<p><a href="tel:+13195733259">(319) 573-3259</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:mawilson7@gmail.com">mawilson7@gmail.com</a></p>
+							</section>
+						</section>
+					</footer>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Mark Wilson</li><li>Based on template: <a href="../https://html5up.net/massively">Massively</a></li></ul>
+					</div>
+
+			</div>
+			
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/collapsible.js"></script>
+			<script src="../assets/js/mark.js"></script>
+	</body>
+</html>

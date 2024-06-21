@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mark Wilson - STAR - Material Return</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="two">
+						<a href="../index.html#main" class="logo">Mark Wilson</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<a href="../index.html#main" width="50px"><li class="icon solid fa-home"></li></a>
+							<!-- <li><a href="../resume.html">Resume</a></li> -->
+							<li><a href="../why.html">Why Mark?</a></li>
+							<li class="active"><a href="../star.html">STAR Examples</a></li>
+							<li><a href="../projects.html">Work Projects</a></li>
+							<li><a href="../homeprojects.html">Home Projects</a></li>
+							<li><a href="../accolades.html">Accolades</a></li>
+							<!-- <li><a href="../boardgames.html">Board Games</a></li> -->
+														
+							<!-- <li><a href="../elements.html">Elements Reference</a></li> -->
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="../https://github.com/Alucrud" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+						</ul>
+					</nav>
+					
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<!-- <img src="img/star/replace.png" class="bannerimg" alt="" /> -->
+							<section>
+								<br><a href="../star.html">&lt;&lt;&lt; Go Back</a><br><br>
+								<header class="major">
+									<h1>Reporting:<br>Tracking Returned Materials</h1>
+								</header>
+							</section>
+							
+							<section>
+								<h3>Situation</h3>
+								<p>At the end of election day, we received materials from about 80 polling locations. Each location had iPads, ballot materials, and other legal documents. All of these materials arrived around the same time on election night (9-11 PM at night after voting since 7 AM)</p>
+								
+								<p>A few of us accepted the materials, verified we received everything, and put the materials away. This is hectic. The first thing to go when things got hectic was verifying all of the materials.</p>
+								
+								<h3>Task</h3>
+								<p>Being frustrated with the process, I tried to find a better way to accept materials, so we could do it quickly and accurately.</p>
+								
+								<h3>Action</h3>
+								<p>We had barcode scanners, so I added custom barcodes to all the materials we had sent out. This was mostly automatic, with some Microsoft Word fields and mail merge.</p>
+								
+								<p>Next, I created a Microsoft Access database that automatically pulled all the equipment we used for that election from another database. We knew what was issued and where.</p>
+								
+								<p>Lastly, on this database, it had a single field to input barcodes, so when a barcode was scanned, it was entered into the database. Based on the formatting of the barcode, we knew what type of item it was, what location it came from, and if there was a number associated with it.</p>
+								
+								<p>I could then run a report that visualized each location and color coded what we had and didn't have, automatically.</p>
+								
+								<h3>Result</h3>
+								<p>Receiving materials went drastically faster. At a glance, we could see what materials we had and what we were missing. From there we could track down what we were missing.</p>
+								
+								<br><br><p>Click on any of the images below to see examples:</p>
+								<div id="thumbnails">
+									<img src="img/return/dash.png" class="imgexpand" alt="The dashboard for scanning barcodes. This has the input box and a history of what was scanned and when." />
+									<img src="img/return/report.png" class="imgexpand" alt="An example of the report. We can see that poll pad 11 and 23 are missing and that they're assigned to precinct CR01 and CR04, respectively." />
+								</div>
+								
+								<br><a href="../star.html">&lt;&lt;&lt; Go Back</a><br><br>
+								
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+
+								<h3>Phone</h3>
+								<p><a href="tel:+13195733259">(319) 573-3259</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:mawilson7@gmail.com">mawilson7@gmail.com</a></p>
+							</section>
+						</section>
+					</footer>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Mark Wilson</li><li>Based on template: <a href="../https://html5up.net/massively">Massively</a></li></ul>
+					</div>
+
+			</div>
+			
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/collapsible.js"></script>
+			<script src="../assets/js/mark.js"></script>
+	</body>
+</html>
