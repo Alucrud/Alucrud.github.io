@@ -6,11 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Mark Wilson - Accolades</title>
+		<title>Mark Wilson - Board Games</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="assets/DataTables/datatables.min.css" rel="stylesheet"/>
+		
 	</head>
 	<body class="is-preload">
 
@@ -26,13 +28,12 @@
 					<nav id="nav">
 						<ul class="links">
 							<a href="index.html#main" width="50px"><li class="icon solid fa-home"></li></a>
-							<!-- <li><a href="resume.html">Resume</a></li> -->
+							<li><a href="resume.html">Resume</a></li>
 							<li><a href="why.html">Why Mark?</a></li>
 							<li><a href="star.html">STAR Examples</a></li>
 							<li><a href="projects.html">Work Projects</a></li>
-							<li><a href="homeprojects.html">Home Projects</a></li>
-							<li class="active"><a href="#">Accolades</a></li>
-							<!-- <li><a href="boardgames.html">Board Games</a></li> -->
+							<li><a href="accolades.html">Accolades</a></li>
+							<li class="active"><a href="#">Board Games</a></li>
 														
 							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
 						</ul>
@@ -40,42 +41,38 @@
 							<!-- <li><a href="https://github.com/Alucrud" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
 						</ul>
 					</nav>
-					
+
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Post -->
-							<img src="images/brag/accolades.png" class="bannerimg" alt="" />
-							<section>
-								<!-- <br><a href="homeprojects.html">&lt;&lt;&lt; Go Back</a><br><br> -->
+							<section class="post">
 								<header class="major">
-									<h1>Accolades</h1>
+									<h1>Mark's Board Games</h1>
+									<p>A big ole list with files and videos</p>
 								</header>
+
+								<table id="example" class="display" style="width:100%">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Min Players</th>
+											<th>Max Players</th>
+											<th>BGG Score</th>
+										</tr>
+									</thead>
+									<tfoot>
+										<tr>
+											<th>Name</th>
+											<th>Min Players</th>
+											<th>Max Players</th>
+											<th>BGG Score</th>
+										</tr>
+									</tfoot>
+								</table>
+
 							</section>
-							
-							<section>
-								<p>Awards, nominations, and other kind words I've received.</p><br />
-								
-								<h3>Linn County</h3>
-								<p>In 2020, I was awarded for Exemplary Service in Customer Satisfaction.</p>
-								<p>In 2021, I was nominated for Exemplary Service in Innovation.</p>
-								<div id="thumbnails">
-									<img src="images/brag/customer.jpg" class="imgexpand" alt="Certificate for Exemplary Service in Customer Satisfaction" />
-									<img src="images/brag/customer2.jpg" class="imgexpand" alt="The accompanying card for Exemplary Service in Customer Satisfaction from the board of supervisors" />
-									<img src="images/brag/innovation.jpg" class="imgexpand" alt="The email sent from HR stating that I was nominated for Exemplary Service in Innovation. (I do not have a copy of the nomination form, unfortunately)" />
-								</div>
-								
-								<h3>AT&amp;T</h3>
-								<p>No awards at AT&amp;T, but I have the overall comments from my yearly performance plans.</p>
-								<div id="thumbnails">
-									<img src="images/brag/2014perfplan.png" class="imgexpand" alt="2014 comments" />
-									<img src="images/brag/2015perfplan.png" class="imgexpand" alt="2015 comments" />
-									<img src="images/brag/2016perfplan.png" class="imgexpand" alt="2016 comments" />
-								</div>
-								
-								<!-- <br><a href="homeprojects.html">&lt;&lt;&lt; Go Back</a><br><br> -->
-								
-							</section>
+
 					</div>
 
 				<!-- Footer -->
@@ -98,12 +95,6 @@
 					</div>
 
 			</div>
-			
-		<!-- The Modal -->
-			<div id="myModal" class="modal">
-			  <img class="modal-content" id="img01">
-			  <div id="caption"></div>
-			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -114,6 +105,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/collapsible.js"></script>
-			<script src="assets/js/mark.js"></script>
+			
+			<script src="assets/Datatables/datatables.min.js" type="text/javascript"></script>
+			<script src="assets/js/datatable.js" type="text/javascript"></script>
+
 	</body>
 </html>
