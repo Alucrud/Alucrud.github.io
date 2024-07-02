@@ -57,44 +57,7 @@
 								<p>During my time at Linn County, I began working on databases using Microsoft access. I adopted a couple databases from a former co-worker, then began creating my own as needs arose.</p>
 								<p>These included a SQL database, VBA programming, and front-end design.</p><br />
 								
-								<p class="note">These are presented in alphabetical order.</p>
 								<p class="note">Click on images below to see full size.</p>
-								
-								<h3>Contacts Database</h3>
-								<p>This database was created to maintain a list of temporary workers we used. It could also be expanded to any contacts as needed.</p>
-								<div id="thumbnails">
-									<img src="img/databases/Contacts DB - Dashboard_s.png" class="imgexpand" alt="This is the main dashboard, showing pertinent info. Bulk actions can be done with several contacts at once. (add/remove tags, add notes, batch e-mail)" />
-									<img src="img/databases/Contacts DB - Details.png" class="imgexpand" alt="This is the screen to add/edit a contact. There are time-stamped notes and tags you can add" />
-									<img src="img/databases/Contacts DB - Bulk Import - Before Bind.png" class="imgexpand" alt="You can import from a CSV file (or excel list). This maps fields in the spreadsheet to fields in the database." />
-									<img src="img/databases/Contacts DB - Bulk Import - After Bind.png" class="imgexpand" alt="After binding CSV fields, you have a chance to confirm everything before importing. You can also add tags at this point." />
-								</div>
-								<p></p>
-								
-								<h3>Depot Drop-Off Database</h3>
-								<p>At the end of election night, all the election locations have a chairperson who brings equipment back to us. In order to ensure we have everything, we barcoded everything and I made this database to quickly enter the barcodes and generate a report of what was scanned.</p>
-								<div id="thumbnails">
-									<img src="img/databases/Depot Drop Off - Dashboard.png" class="imgexpand" alt="The dashboard simply has a place to scan, along with which election (to determine what was expected) and recent scans" />
-									<img src="img/databases/Depot Drop Off - Report.png" class="imgexpand" alt="This is a sample of the status report. Everything highlighted red is missing, green has been scanned." />
-								</div>
-								
-								<h3>Inventory Database</h3>
-								<p>One of my tasks as Elections Office Coordinator was keeping track of office and election supplies. The inventory database allowed me to keep track of where things were and what we had. This helped verify we had enough materials for upcoming elections.</p>
-								<div id="thumbnails">
-									<img src="img/databases/Inventory DB - Dashboard.png" class="imgexpand" alt="The main dashboard has all the info like a spreadsheet. You can add election info at the top-left to verify you have enough materials." />
-									<img src="img/databases/Inventory DB - Count Info.png" class="imgexpand" alt="The 'Count Info' view shows info based on the how many of each item we had." />
-									<img src="img/databases/Inventory DB - Purchase Info.png" class="imgexpand" alt="'Purchase Info' shows info on where to buy more and how much I paid prior (manually entered)" />
-									<img src="img/databases/Inventory DB - Standard Info.png" class="imgexpand" alt="'Standard Info' is where the items are located and categories (used to estimate needs)" />
-									<img src="img/databases/Inventory Database - Report_s.png" class="imgexpand" alt="This report is available for me or our temporary technicians to gather updated info. After the info is updated, I entered the info in the database." />
-								</div>
-								
-								<h3 id="jira">Jira Task List</h3>
-								<p>We used Jira to manage our task lists for each election. Unfortunately, at the time, there was no way to copy tasks from one project to another, so I made a database to do just that.</p>
-								<p>This also allowed me to set up tasks for specific election types, I could filter out tasks and change deadlines depending on what type of election it was.</p>
-								<div id="thumbnails">
-									<img src="img/databases/JiraTaskList DB - Dashboard_s.png" class="imgexpand" alt="This is the main dashboard, which is similar to a spreadsheet, but the due dates were automatic based on the election date. There are also filters on the right to show only tasks for specific election types." />
-									<img src="img/databases/JiraTaskList DB - Task.png" class="imgexpand" alt="Details for a task. You could link tasks together, which corresponded with Jira linking." />
-									<img src="img/databases/JiraTaskList DB - Task 2.png" class="imgexpand" alt="Details for another task. This one has a dependency, so it would be filtered out if you didn't select "Election Type - General" />
-								</div>
 								
 								<h3>PEO Database</h3>
 								<p>The PEO (Precinct Election Official) database was used to assign workers to locations for election day. It also allowed us to sign workers up to training and calculate payments. It was one of the databases I inherited. However, a lot of the content was reworked and several features were added.</p>
@@ -108,18 +71,6 @@
 									<img src="img/databases/PEO Database - Paysheet_s.png" class="imgexpand" alt="This is an example paysheet report. Workers had to sign these on election day to be paid. All of this info was generated by the database. The mileage was from Google Maps API." />
 									<img src="img/databases/PEO Database - Payroll Adjust_s.png" class="imgexpand" alt="After an election, pay is first generated for everyone based on a set standard. Then adjustments needed to be made. This was the screen to make the adjustments for an individual." />
 									<img src="img/databases/PEO Database - Poll Pad QA.png" class="imgexpand" alt="This is an example of a report I used as a technician. It's a checklist to verify everything was checked for each iPad being sent out for election day. All the info was generated from the database." />
-								</div>
-								
-								<h3>Polling Place Database</h3>
-								<p>The Polling Place database was the other database I inherited with the PEO Database. This one didn't receive as much love.</p>
-								<p>Items I worked on that I don't have screenshots for:</p>
-								<ul>
-									<li>A repository for ADA survey documents.</li>
-									<li>details on each polling location</li>
-								</ul>
-								<div id="thumbnails">
-									<img src="img/databases/Polling Place - All Sites.png" class="imgexpand" alt="The dashboard with a list of all sites." />
-									<img src="img/databases/Polling Place - Reporting.png" class="imgexpand" alt="The reporting interface, so we could pull reports for specific locations, as needed." />
 								</div>
 								
 								<h3>Problem Log</h3>
@@ -143,11 +94,13 @@
 									<img src="img/databases/Problem Log - Website Example_s.png" class="imgexpand" alt="An example of the 'mini-website' added to the database. This allowed me to address common issues with our workers." />
 								</div>
 								
-								<h3>Turnout Calculator</h3>
-								<p>We needed to estimate turnout for each election. My solution was to make a database, which takes historical data and updates for current registration counts.</p>
-								<p>This one was just for me, so it looks kind of basic, but you could select which prior elections to base it on, add some padding, and determine how many check-in workers you would need.</p>
+								<h3 id="jira">Jira Task List</h3>
+								<p>We used Jira to manage our task lists for each election. Unfortunately, at the time, there was no way to copy tasks from one project to another, so I made a database to do just that.</p>
+								<p>This also allowed me to set up tasks for specific election types, I could filter out tasks and change deadlines depending on what type of election it was.</p>
 								<div id="thumbnails">
-									<img src="img/databases/Turnout.png" class="imgexpand" alt=""/>
+									<img src="img/databases/JiraTaskList DB - Dashboard_s.png" class="imgexpand" alt="This is the main dashboard, which is similar to a spreadsheet, but the due dates were automatic based on the election date. There are also filters on the right to show only tasks for specific election types." />
+									<img src="img/databases/JiraTaskList DB - Task.png" class="imgexpand" alt="Details for a task. You could link tasks together, which corresponded with Jira linking." />
+									<img src="img/databases/JiraTaskList DB - Task 2.png" class="imgexpand" alt="Details for another task. This one has a dependency, so it would be filtered out if you didn't select "Election Type - General" />
 								</div>
 								
 								<h3>Write-In Database</h3>
@@ -157,6 +110,52 @@
 									<img src="img/databases/Write-in DB - Dashboard.png" class="imgexpand" alt="There's a form to add write-ins. The bottom shows a history of write-ins that individual has entered, which can be modified by that person, if needed." />
 									<img src="img/databases/Write-in DB - Aliases.png" class="imgexpand" alt="Adding acceptable aliases for an individual. In this case test32 counts towards test3 votes. (A real world example being Jon vs Jonathan)" />
 									<img src="img/databases/Write-in DB - Report.png" class="imgexpand" alt="An example of the write-in report generated for public viewing." />
+								</div>
+								
+								<h3>Depot Drop-Off Database</h3>
+								<p>At the end of election night, all the election locations have a chairperson who brings equipment back to us. In order to ensure we have everything, we barcoded everything and I made this database to quickly enter the barcodes and generate a report of what was scanned.</p>
+								<div id="thumbnails">
+									<img src="img/databases/Depot Drop Off - Dashboard.png" class="imgexpand" alt="The dashboard simply has a place to scan, along with which election (to determine what was expected) and recent scans" />
+									<img src="img/databases/Depot Drop Off - Report.png" class="imgexpand" alt="This is a sample of the status report. Everything highlighted red is missing, green has been scanned." />
+								</div>
+								
+								<h3>Polling Place Database</h3>
+								<p>The Polling Place database was the other database I inherited with the PEO Database. This one didn't receive as much love.</p>
+								<p>Items I worked on that I don't have screenshots for:</p>
+								<ul>
+									<li>A repository for ADA survey documents.</li>
+									<li>details on each polling location</li>
+								</ul>
+								<div id="thumbnails">
+									<img src="img/databases/Polling Place - All Sites.png" class="imgexpand" alt="The dashboard with a list of all sites." />
+									<img src="img/databases/Polling Place - Reporting.png" class="imgexpand" alt="The reporting interface, so we could pull reports for specific locations, as needed." />
+								</div>
+								
+								<h3>Contacts Database</h3>
+								<p>This database was created to maintain a list of temporary workers we used. It could also be expanded to any contacts as needed.</p>
+								<div id="thumbnails">
+									<img src="img/databases/Contacts DB - Dashboard_s.png" class="imgexpand" alt="This is the main dashboard, showing pertinent info. Bulk actions can be done with several contacts at once. (add/remove tags, add notes, batch e-mail)" />
+									<img src="img/databases/Contacts DB - Details.png" class="imgexpand" alt="This is the screen to add/edit a contact. There are time-stamped notes and tags you can add" />
+									<img src="img/databases/Contacts DB - Bulk Import - Before Bind.png" class="imgexpand" alt="You can import from a CSV file (or excel list). This maps fields in the spreadsheet to fields in the database." />
+									<img src="img/databases/Contacts DB - Bulk Import - After Bind.png" class="imgexpand" alt="After binding CSV fields, you have a chance to confirm everything before importing. You can also add tags at this point." />
+								</div>
+								<p></p>
+								
+								<h3>Inventory Database</h3>
+								<p>One of my tasks as Elections Office Coordinator was keeping track of office and election supplies. The inventory database allowed me to keep track of where things were and what we had. This helped verify we had enough materials for upcoming elections.</p>
+								<div id="thumbnails">
+									<img src="img/databases/Inventory DB - Dashboard.png" class="imgexpand" alt="The main dashboard has all the info like a spreadsheet. You can add election info at the top-left to verify you have enough materials." />
+									<img src="img/databases/Inventory DB - Count Info.png" class="imgexpand" alt="The 'Count Info' view shows info based on the how many of each item we had." />
+									<img src="img/databases/Inventory DB - Purchase Info.png" class="imgexpand" alt="'Purchase Info' shows info on where to buy more and how much I paid prior (manually entered)" />
+									<img src="img/databases/Inventory DB - Standard Info.png" class="imgexpand" alt="'Standard Info' is where the items are located and categories (used to estimate needs)" />
+									<img src="img/databases/Inventory Database - Report_s.png" class="imgexpand" alt="This report is available for me or our temporary technicians to gather updated info. After the info is updated, I entered the info in the database." />
+								</div>
+								
+								<h3>Turnout Calculator</h3>
+								<p>We needed to estimate turnout for each election. My solution was to make a database, which takes historical data and updates for current registration counts.</p>
+								<p>This one was just for me, so it looks kind of basic, but you could select which prior elections to base it on, add some padding, and determine how many check-in workers you would need.</p>
+								<div id="thumbnails">
+									<img src="img/databases/Turnout.png" class="imgexpand" alt=""/>
 								</div>
 								
 								<h3>Yellow Bag Database</h3>
